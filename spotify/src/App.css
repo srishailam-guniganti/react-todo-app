@@ -1,0 +1,190 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+.image img {
+  width: 1200px;
+  height: 550px;
+  object-fit: fill;
+}
+.image button {
+  border-radius: 10rem;
+  cursor: pointer;
+}
+.TotalBody {
+  max-width: 100vw;
+  min-width: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 85vh 15vh;
+}
+.Sidebar {
+  height: 100%;
+  width: 15%;
+  background-color: #1db954;
+}
+.Navbar {
+  background-color: #191414;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+  padding-inline: 1rem;
+}
+
+.Footer {
+  background: color #1ed760;
+}
+.toplinks ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+.toplinks ul li {
+  display: flex;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+  }
+}
+.search_bar {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  input {
+    border: none;
+    height: 2rem;
+    width: 100%;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    justify-content: space-around;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.avatar {
+  background-color: aliceblue;
+  width: 5.7rem;
+  padding: 0.2rem;
+  margin-left: 0.2rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-right: 0.2rem;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.mainpage {
+  width: 100%;
+  height: 100%;
+}
+.Body {
+  overflow: auto;
+  height: 74vh;
+  background-color: #b3b3b3;
+}
+.search_svg {
+  margin-top: 3px;
+  position: ABSOLUTE;
+  margin-inline: 0.5rem;
+}
+.playlist {
+  /* margin-left: 0.5rem; */
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  /* overflow: auto; */
+  .image {
+    img {
+      height: 10rem;
+      width: 150px;
+    }
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 2rem;
+    color: blue;
+  }
+}
+.list {
+  .header_row {
+    margin-left: 10rem;
+    display: flex;
+    color: black;
+    gap: 10rem;
+    top: 15vh;
+  }
+}
+.tracks {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-sm {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+}
+.row {
+  margin-top: 40px;
+  gap: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  & :hover {
+    background-color: bisque;
+  }
+}
+.info {
+  display: flex;
+  margin-left: 10rem;
+  margin-top: -40px;
+}
+.col {
+  display: flex;
+  margin-left: 40rem;
+  margin-top: -20px;
+}
+.title {
+  margin-top: 60px;
+}
+.album {
+  margin-top: 60px;
+  margin-left: 15rem;
+}
+.ash {
+  margin-top: 60px;
+  margin-left: -10rem;
+}
+.track {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+track_info {
+  display: flex;
+}
+.TotalIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.state {
+  color: brown;
+}
